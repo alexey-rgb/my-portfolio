@@ -1,4 +1,8 @@
+.navbar {
+ width: 100%;
+}
+
 .navbar__list {
  display: flex;   
- font-family: $font;
+ justify-content: space-between;
 }

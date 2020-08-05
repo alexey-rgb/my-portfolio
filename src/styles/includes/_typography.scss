@@ -1,0 +1,31 @@
+body {
+    font-family: "Recursive", "Arial", sans-serif;
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
