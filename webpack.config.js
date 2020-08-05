@@ -13,11 +13,11 @@ module.exports = {
     game: "./src/game/game.jsx",
   },
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "./docs"),
     filename: "[name].bundle.js",
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "docs"),
     //compress: true,
     port: 5000,
   },
