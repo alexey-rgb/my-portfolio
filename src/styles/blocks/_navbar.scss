@@ -1,8 +1,12 @@
 .navbar {
  width: 100%;
+ background-color: tan
 }
 
 .navbar__list {
  display: flex;   
  justify-content: space-between;
+ color: #0000;
+ width: 400px;
+ margin: 50px 0 0 200px;
 }

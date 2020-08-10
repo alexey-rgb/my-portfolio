@@ -1,0 +1,28 @@
+.main__background-control {
+    margin: 0y;
+    &::before {
+        content: "Click";
+        position: fixed;
+        top: 425px;
+        right: 136px;
+        width: 100px;
+        height: 50px;
+        background-color: lightgreen;
+        padding: 10px 27px;
+        border-radius: 10px;
+    }
+}
+
+.main__aboutme {
+    width: 700px;
+    margin: 1000px auto 0 auto;
+    position: relative;
+    &::before {
+        content: url("../images/MOSHED-2020-8-10-12-21-17.gif");
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        bottom: 46px;
+        left: 198px;
+    }
+}

@@ -4,6 +4,7 @@ body {
     font-size: 14px;
     line-height: 30px;
     position: relative;
+    background-color: Cornsilk;
   }
   
   img {
@@ -13,6 +14,8 @@ body {
   
   a {
     text-decoration: none;
+    cursor: pointer;
+    color: black;
   }
   
   html {

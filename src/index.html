@@ -14,33 +14,46 @@
 
         <!-- My foto-->
 
-        <img src="images/myfoto.jpg" alt="My foto">
+        <div class="header__avatar">
+            <img src="images/programmer.jpg" alt="My foto">
+        </div>
 
         <!-- Navigation -->
 
         <nav class="header__navigation navbar">
             <ul class="navbar__list list">
-                <li class="list__item">About me</li>
-                <li class="list__item">Portfolio</li>
-                <li class="list__item"></li>
-                <li class="list__item"></li>
+                <li class="list__item"><a href="#bottom">About me</a></li>
+                <li class="list__item"><a>Portfolio</a></li>
             </ul>
         </nav>
     </header>
 
-    <h1 class="visually-hidden">
-        Web-developer portfolio
-    </h1>
+    <main class="main">
+        <h1 class="visually-hidden">
+            Web-developer portfolio
+        </h1>
 
-    <!--react-components container-->
+        <!--  react-components container  -->
 
-    <div id="root">
-    </div>
+        <div id="root">
+        </div>
 
-    <script src="main.bundle.js">
-    </script>
-    <script src="game.bundle.js">
-    </script>
+        <!--  About me  -->
+        <div class="main__aboutme">
+            <p>
+                <a name="bottom">
+                </a>
+                I am constantly engaged in self-education, read articles and watch lectures.
+
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+
+
 </body>
 
 </html>

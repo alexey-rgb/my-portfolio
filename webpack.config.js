@@ -10,7 +10,6 @@ module.exports = {
   mode: "development",
   entry: {
     main: "./src/index.jsx",
-    game: "./src/game/game.jsx",
   },
   output: {
     path: path.resolve(__dirname, "./docs"),
